@@ -8,7 +8,7 @@ class Author
   end
 
   def posts
-    @posts<<post
+    @posts
   end
 
 end
