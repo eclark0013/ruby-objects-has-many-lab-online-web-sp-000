@@ -22,4 +22,6 @@ attr_accessor :name, :songs
     song.title=name
     @songs<<song
     song.artist=self
+  end
+  
 end
