@@ -12,7 +12,7 @@ class Post
     @@all
   end
 
-  def auhtor_name
+  def author_name
     @author
   end
 
