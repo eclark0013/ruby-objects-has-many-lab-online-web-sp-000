@@ -19,7 +19,7 @@ class Post
     # is one that he wrote
     @author.add_post.self
   end
-    
+
   def author_name
     self.author
   end
