@@ -23,5 +23,8 @@ attr_accessor :name, :songs
     @songs<<song
     song.artist=self
   end
-  
+
+  def song_count
+    @song.count
+  end
 end
